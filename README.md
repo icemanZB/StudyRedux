@@ -47,3 +47,11 @@ Examples
   $ npm-check -gu       # Update globally installed modules by picking which ones to upgrade. 
 ```
 > 3. 
+
+### vscode 使用技巧 <br>
+> 1. vscode 快捷键 [参考网址](http://www.cnblogs.com/bindong/p/6045957.html) <br>
+> > * 侧边栏显/隐：wiindows 下 Ctrl+B / mac 下 ⌘ + B <br>
+> > * 多行编辑(列编辑)：windows 下 Alt+Shift+鼠标左键，Ctrl+Alt+Down/Up / mac 下 ⇧（shift）+ ⌥（option）+ 鼠标左键
+
+### mac 使用技巧 <br>
+> 1. 特殊字符 ⌘（command）、⌥（option）、⇧（shift）、⇪（caps lock）、⌃（control）、↩（return）、⌅（enter）
