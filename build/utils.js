@@ -1,5 +1,3 @@
-var config = require('../config');
-
 // 生成版本控制号
 exports.getVersion = function () {
     var date = new Date();
