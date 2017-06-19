@@ -1,8 +1,8 @@
 ### 命令行总结 <br>
 > 1. `cls` 清屏 <br>
 > 2. `d:` 直接进入 D 盘 <br>
-> 3. `cd` 进入目录， p.s. `cd soft`
-> 4. `..` 进入上级目录
+> 3. `cd` 进入目录， p.s. `cd soft` <br>
+> 4. `..` 进入上级目录 <br>
 
 
 ### webpack 总结 <br>  
@@ -48,13 +48,27 @@ Examples
 ```
 > 3. 
 
+
 ### vscode 使用技巧 <br>
 > 1. vscode 快捷键 [参考网址](http://www.cnblogs.com/bindong/p/6045957.html) <br>
-> > * 侧边栏显/隐：wiindows 下 Ctrl+B / mac 下 ⌘ + B <br>
-> > * 多行编辑(列编辑)：windows 下 Alt+Shift+鼠标左键，Ctrl+Alt+Down/Up / mac 下 ⇧（shift）+ ⌥（option）+ 鼠标左键
-> 2. vscode git 使用
-> > * 配置 git，设置全局配置 `git config --global user.name "icemanZB"` 、`git config --global user.email "254784109@qq.com"` 
+> > * 侧边栏显/隐：wiindows 下 Ctrl+B / mac 下 ⌘ + B <br>
+> > * 多行编辑(列编辑)：windows 下 Alt+Shift+鼠标左键，Ctrl+Alt+Down/Up / mac 下 ⇧（shift）+ ⌥（option）+ 鼠标左键 <br>
+> > * 打开侧边预览：windows 下 Ctrl + K V / mac 下 ⌘ + K V <br>
+> 2. vscode git 使用 <br>
+> > * 配置 git，设置全局配置 <br>
+```
+git config --global user.name "icemanZB"
+git config --global user.email "254784109@qq.com"
+```
 > > * 之后就可以正常操作了，提交到暂存区，把暂存区放到版本库，添加注释，最后推送即可
 
+
+
+### webstorm 使用技巧 <br>
+> 1. 常用快捷键总结 <br>
+> > *  F11：Toggle bookmark 切换标记 <br>
+> > * Ctrl + Shift + F12：Toggle maximizing editor(切换最大化编辑器) <br>
+
+
 ### mac 使用技巧 <br>
-> 1. 特殊字符 ⌘（command）、⌥（option）、⇧（shift）、⇪（caps lock）、⌃（control）、↩（return）、⌅（enter）
+> 1. 特殊字符 ⌘（command）、⌥（option）、⇧（shift）、⇪（caps lock）、⌃（control）、↩（return）、⌅（enter） <br>
