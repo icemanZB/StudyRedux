@@ -46,7 +46,7 @@ Examples
   $ npm-check ../foo    # Check another path.
   $ npm-check -gu       # Update globally installed modules by picking which ones to upgrade. 
 ```
-> 3. 
+> 3. npm list -g --depth=0 查看 npm 全局安装列表
 
 
 ### vscode 使用技巧 <br>
