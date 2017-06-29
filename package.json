@@ -21,6 +21,14 @@
     "redux-thunk": "^2.2.0"
   },
   "devDependencies": {
-    "webpack": "^1.15.0"
+    "autoprefixer": "^7.1.1",
+    "express": "^4.15.3",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "html-webpack-plugin": "^2.29.0",
+    "http-proxy-middleware": "^0.17.4",
+    "node-sass": "^4.5.3",
+    "opn": "^5.1.0",
+    "webpack": "^1.14.0",
+    "webpack-merge": "^4.1.0"
   }
 }

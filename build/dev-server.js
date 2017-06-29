@@ -73,6 +73,7 @@ app.use(config.commonPath.staticPath, express.static('./static'));
 app.get('*', function (request, response, next) {
 
     if (request.url.indexOf('.json') != -1) {
+        // console.log('get');
         next();
     } else {
         // 这里指向的是 自己创建的静态文件

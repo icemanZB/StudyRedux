@@ -37,7 +37,7 @@ module.exports = merge(baseWebpackConfig, {
                 loaders: [
                     'style-loader',
                     'css-loader',
-                    'less-loader?{"modifyVars":{\'primary-color\':\'@green-5\'}}'
+                    'less-loader'
                 ]
             }
         ]
