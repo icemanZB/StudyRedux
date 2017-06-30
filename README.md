@@ -50,6 +50,12 @@
 > > * babel-plugin-transform-runtime 类似帮助函数 _defineProperty 可能会重复出现在一些模块里，导致编译后的代码体积变大。Babel 为了解决这个问题，提供了单独的包 babel-runtime 供编译模块复用工具函数。它依赖 babel-runtime [参考网址](https://www.npmjs.com/package/babel-plugin-transform-runtime) <br>
 > 19. `npm install babel-plugin-import --save-dev`  按需加载 antd  [参考网址](https://www.npmjs.com/package/babel-plugin-import) <br>
 > 20. `npm install antd --save` 安装 antd ui <br>
+> 21. `npm install isomorphic-fetch es6-promise --save`
+> > * isomorphic-fetch 处理 ajax 提交
+> > * es6-promise es6 兼容处理
+> 22. `npm install js-cookie --save`   js-cookie cookie 处理
+
+   
 
    
 

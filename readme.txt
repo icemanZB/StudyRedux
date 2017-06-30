@@ -7,50 +7,6 @@ npm install webpack@1.14.0 --save-dev
 cnpm install node-sass --save-dev
 
 
-"dependencies": {
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-router": "^3.0.0",
-    "redux": "^3.6.0",
-    "redux-logger": "^2.8.0",
-    "redux-thunk": "^2.2.0"
-  },
-  "devDependencies": {
-    "autoprefixer": "^6.6.1",
-    "babel-core": "^6.21.0",
-    "babel-loader": "^6.2.10",
-    "babel-plugin-import": "^1.1.0",
-    "babel-plugin-transform-runtime": "^6.15.0",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-react": "^6.16.0",
-    "babel-preset-stage-1": "^6.16.0",
-    "babel-preset-stage-2": "^6.18.0",
-    "classnames": "^2.2.5",
-    "clean-webpack-plugin": "^0.1.15",
-    "css-loader": "^0.26.1",
-    "express": "^4.14.0",
-    "express-urlrewrite": "^1.2.0",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "friendly-errors-webpack-plugin": "^1.1.3",
-    "html-webpack-plugin": "^2.26.0",
-    "http-proxy-middleware": "^0.17.3",
-    "json-loader": "^0.5.4",
-    "less": "^2.7.2",
-    "less-loader": "^2.2.3",
-    "node-sass": "^4.2.0",
-    "opn": "^4.0.2",
-    "ora": "^0.4.1",
-    "postcss-loader": "^1.2.2",
-    "sass": "^0.5.0",
-    "sass-loader": "^4.1.1",
-    "shelljs": "^0.7.6",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.15.0",
-    "webpack-dev-middleware": "^1.9.0",
-    "webpack-hot-middleware": "^2.15.0",
-    "webpack-merge": "^2.4.0"
-  }
-
 
 
 
