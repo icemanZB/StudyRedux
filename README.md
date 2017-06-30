@@ -54,7 +54,7 @@
 > > * isomorphic-fetch 处理 ajax 提交
 > > * es6-promise es6 兼容处理
 > 22. `npm install js-cookie --save`   js-cookie cookie 处理
-
+> 23. `npm install nprogress --save`   进度条插件
    
 
    

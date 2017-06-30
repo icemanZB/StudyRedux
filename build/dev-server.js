@@ -1,9 +1,9 @@
 let path            = require('path'),
     fs              = require('fs'),
 
-    opn             = require('opn'),
+    opn             = require('opn'), // 自动打开浏览器
     proxyMiddleware = require('http-proxy-middleware'),
-    express         = require("express"),
+    express         = require("express"), // 引入 express 框架
     app             = express(),
 
     config          = require('./config'),
@@ -16,8 +16,8 @@ let path            = require('path'),
 let compiler = webpack(webpackConfig);
 
 let devMiddleware = require('webpack-dev-middleware')(compiler, {
-    publicPath: webpackConfig.output.publicPath,
 
+    publicPath: webpackConfig.output.publicPath,
     stats: {
         colors: true,
         chunks: false
@@ -26,6 +26,7 @@ let devMiddleware = require('webpack-dev-middleware')(compiler, {
 
 let hotMiddleware = require('webpack-hot-middleware')(compiler);
 
+// 使用了 html-webpack-plugin 插件，强制刷新页面
 compiler.plugin('compilation', function (compilation) {
 
     compilation.plugin('html-webpack-plugin-after-emit', function (data, cb) {
@@ -37,6 +38,7 @@ compiler.plugin('compilation', function (compilation) {
 
 });
 
+// api 转发
 Object.keys(proxyTable).forEach(function (context) {
 
     var options = proxyTable[context];
@@ -112,3 +114,27 @@ module.exports = app.listen(port, function (err) {
     // opn(uri);
 
 });
+
+// let uri = 'http://localhost:' + port;
+
+// let _resolve;
+// let readyPromise = new Promise(resolve => {
+// 	_resolve = resolve
+// });
+
+// console.log('> Starting dev server...');
+
+// devMiddleware.waitUntilValid(() => {
+// 	console.log('> Listening at ' + uri + '\n');
+// 	// opn(uri)
+// 	_resolve();
+// });
+
+// let server = app.listen(port);
+
+// module.exports = {
+// 	ready: readyPromise,
+// 	close: () => {
+// 		server.close()
+// 	}
+// };
