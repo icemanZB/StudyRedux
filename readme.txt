@@ -130,18 +130,6 @@ cnpm install node-sass --save-dev
    // react-hot-loader 依赖 webpack-dev-server
    npm install webpack-dev-server react-hot-loader --save-dev
 
-webpack 是德国开发者 Tobias Koppers 开发的模块加载器兼打包工具，在 webpack 中，他能把各种资源，
-例如js(含JSX)、coffee、样式(含less/sass)、图片等都作为模块来使用和处理。因此，Webpack 当中 js 可以
-引用 css，css中可以切入图片 dataUrl。
-
-为什么要使用 webpack ？
-webpack 是前端一个工具，可以让各个模块进行加载，预处理，再进行打包，它能有 Grunt 或 Gulp 所有基本功能。
-优点如下：1、支持 commonJS 和 AMD 模块。2、支持很多模块加载器的调用，可以使模块加载器灵活定制，比如 babel-loader 
-加载器，该加载器能够使我们使用 ES6 的语法来编写代码。3、可以通过配置打包成多个文件，有效的利用浏览器的缓存功能提升性能。
-4、使用模块加载器，可以支持sass、less等处理器进行打包且支持静态资源样式及图片进行打包。
-
-
-
 webpack 中，代码里面的 require 是webpack 提供的扩张项 ( require.js )
 本地安装require不到全局的包，这是node的机制问题
 

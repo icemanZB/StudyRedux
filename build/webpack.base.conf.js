@@ -14,13 +14,7 @@ module.exports = {
 		extensions: ['', '.js', '.jsx'],
 		fallback  : [config.commonPath.fallback],
 		alias     : {
-			'src'       : config.commonPath.src,
-			'assets'    : config.commonPath.assets,
-			'components': config.commonPath.components,
-			'services'  : config.commonPath.services,
-			'actions'   : config.commonPath.actions,
-			'constants' : config.commonPath.constants,
-			'containers': config.commonPath.containers
+			'src'       : config.commonPath.src
 		}
 	},
 	resolveLoader: {

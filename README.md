@@ -17,8 +17,41 @@
 
 
 ### 项目 <br>
-> 1. 安装 react `npm install react react-dom react-router redux redux-logger redux-thunk --save`
+> 1. 安装 react `npm install react react-dom react-router redux redux-logger redux-thunk --save` <br>
+> 2. `npm install postcss-loader autoprefixer --save-dev` 通过 postcss 平台，Autoprefixer 可以同 Sass，Stylus 或 LESS 等预处理器共通使用。它适用于普通的CSS，而你无需关心要为哪些浏览器加前缀，只需全新关注于实现，并使用W3C最新的规范。 <br>
+> 3. `npm install express --save-dev` 基于 Node.js 平台，快速、开放、极简的 web 开发框架。 <br>
+> 4. `npm install webpack-merge webpack-dev-middleware webpack-hot-middleware --save-dev` <br>
+> > * webpack-merge 提供了一个合并函数 <br>
+> > * webpack-dev-middleware 就是一个运行于内存中的文件系统，也是 express 的中间件。[参考网址](https://github.com/webpack/webpack-dev-middleware/) <br>
+> > * webpack-hot-middleware 热替换 <br>
+> 5.  node-sass 安装不上，使用 淘宝的镜像 `npm install -g cnpm --registry=https://registry.npm.taobao.org` <br>
+> > * `npm install sass --save-dev` 安装 sass <br>
+> > * `cnpm install node-sass --save-dev` 它允许以令人难以置信的速度将.scss 文件本机编译为 css 并通过连接中间件自动编译 <br>
+> > * `npm install sass-loader --save-dev` sass-loader 依赖 node-sass ，允许你写 require('./css/main.scss'); 加载样式 <br>
+> 6. `npm install less less-loader --save-dev` 安装 less，按需引用 [参考网址](https://github.com/webpack-contrib/less-loader)，使用 css-loader 其转换为 JS 模块，并将 ExtractTextPlugin 解压缩到一个单独的文件中。 <br>
+> 7. `npm install style-loader css-loader --save-dev` <br>
+> > * css-loader 使能够使用类似 @import 和 url(...) 的方法实现 require()的功能，它对 CSS Modules 的支持最好 [参考网址](https://github.com/css-modules/webpack-demo) <br>
+> > * style-loader 将所有的计算后的样式加入页面中 <br>
+> 8. `npm install extract-text-webpack-plugin --save-dev` 把 css 从 js 文件中提取出来，放到一个单独的 css 文件中  [参考网址](https://github.com/webpack/extract-text-webpack-plugin) <br>
+> 9. `npm install json-loader --save-dev` 允许使用 require('*.json'); <br>
+> 10. `npm install shelljs --save-dev` shelljs 可以让我们在 node 环境的 js 中使用 shell <br>
+> 11. `npm install http-proxy-middleware --save-dev` http-proxy-middleware   nodejs 代理，转发所有请求代理到真实的后端真实 API 地址。[参考网址] (https://www.npmjs.com/package/http-proxy-middleware) <br>
+> 12. `npm install html-webpack-plugin --save-dev`  html-webpack-plugin 自动创建 html 文件。[参考网址](https://github.com/ampedandwired/html-webpack-plugin) <br>
+> 13. `npm install clean-webpack-plugin --save-dev` clean-webpack-plugin 用于在building之前删除你以前build过的文件 <br>
+> 14. `npm install ora --save-dev` ora 优雅的终端器  https://www.npmjs.com/package/ora
+> 15. `npm install friendly-errors-webpack-plugin --save-dev`  友好的错误提示 <br>
+> 16. `npm install opn --save-dev` opn  打开默认浏览器 <br>
+> 17. `npm install transfer-webpack-plugin --save-dev` 高度复制静态文件 <br>
+> 18. `npm install babel-core babel-loader babel-preset-stage-2 babel-preset-es2015 babel-preset-react babel-plugin-transform-runtime --save-dev` `npm install babel-runtime --save` <br>
+> > * babel 其实是几个模块化的包，其核心功能位于称为 babel-core 的 npm 包中  [参考网址](https://github.com/brunoyang/blog/issues/20)。 babel-core 模块以及 babel-preset-es2015 插件仅仅完成了 es6 语法转 es5 语法， 而es6规范新增了很多类和API并没有被添加进来。例如： Promise、Set、Map 等新增对象，Object.assign、Object.entries等静态方法。[参考网址](http://www.tuicool.com/articles/JFj67v)<br>
+> > * babel-preset-es2015 解析 es6 <br> 
+> > * babel-preset-react 解析 .jsx <br>
+> > * babel-preset-stage-2 es7 不同阶段语法提案的转码规则(共有4个阶段)，stage-2 覆盖 stage-3 的所有功能 [参考网址](http://www.cnblogs.com/chris-oil/p/5717544.html) <br>
+> > * babel-plugin-transform-runtime 类似帮助函数 _defineProperty 可能会重复出现在一些模块里，导致编译后的代码体积变大。Babel 为了解决这个问题，提供了单独的包 babel-runtime 供编译模块复用工具函数。它依赖 babel-runtime [参考网址](https://www.npmjs.com/package/babel-plugin-transform-runtime) <br>
+> 19. `npm install babel-plugin-import --save-dev`  按需加载 antd  [参考网址](https://www.npmjs.com/package/babel-plugin-import) <br>
+> 20. `npm install antd --save` 安装 antd ui <br>
 
+   
 
 ### Tips <br>
 > 1. 在 wiondws 系统下删除 node_modules <br>
