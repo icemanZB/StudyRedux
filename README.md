@@ -98,6 +98,7 @@ Examples
 > > * 多行编辑(列编辑)：windows 下 Alt+Shift+鼠标左键，Ctrl+Alt+Down/Up / mac 下 ⇧（shift）+ ⌥（option）+ 鼠标左键 <br>
 > > * 打开侧边预览：windows 下 Ctrl + K V / mac 下 ⌘ + K V <br>
 > > * 打开终端 ⌃（control）+ `
+> > * ⌥（option） + ⇧（shift）+ F 格式化代码 (beautify)
 > 2. vscode git 使用 <br>
 > > * 配置 git，设置全局配置 <br>
 ```
